@@ -46,7 +46,7 @@ const Categories = () => {
               className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md"
             >
               <CardHeader className="text-center pb-4">
-                <div className="mx-auto mb-4 w-16 h-16 bg-[#1EAEDB] rounded-full flex items-center justify-center">
+                <div className="mx-auto mb-4 w-16 h-16 bg-primary rounded-full flex items-center justify-center">
                   <Icon
                     name={category.icon as any}
                     size={32}
@@ -70,10 +70,10 @@ const Categories = () => {
                 </div>
 
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-[#1EAEDB] mb-4">
+                  <div className="text-2xl font-bold text-primary mb-4">
                     {category.priceRange}
                   </div>
-                  <Button className="w-full bg-[#1EAEDB] hover:bg-[#0FA0CE]">
+                  <Button className="w-full bg-primary hover:bg-primary-dark">
                     Узнать цену
                   </Button>
                 </div>

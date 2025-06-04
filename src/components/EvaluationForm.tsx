@@ -20,7 +20,7 @@ const EvaluationForm = () => {
         </div>
 
         <Card className="border-0 shadow-xl">
-          <CardHeader className="bg-[#1EAEDB] text-white text-center rounded-t-lg">
+          <CardHeader className="bg-primary text-white text-center rounded-t-lg">
             <CardTitle className="text-2xl flex items-center justify-center space-x-2">
               <Icon name="Calculator" size={24} />
               <span>Оценка техники</span>
@@ -34,7 +34,7 @@ const EvaluationForm = () => {
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     Тип техники
                   </label>
-                  <select className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#1EAEDB] focus:border-transparent">
+                  <select className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent">
                     <option>Выберите тип</option>
                     <option>Компьютер</option>
                     <option>Ноутбук</option>
@@ -48,7 +48,7 @@ const EvaluationForm = () => {
                   </label>
                   <Input
                     placeholder="Apple, Dell, HP..."
-                    className="focus:ring-2 focus:ring-[#1EAEDB]"
+                    className="focus:ring-2 focus:ring-primary"
                   />
                 </div>
               </div>
@@ -60,7 +60,7 @@ const EvaluationForm = () => {
                   </label>
                   <Input
                     placeholder="MacBook Pro 13"
-                    className="focus:ring-2 focus:ring-[#1EAEDB]"
+                    className="focus:ring-2 focus:ring-primary"
                   />
                 </div>
 
@@ -71,7 +71,7 @@ const EvaluationForm = () => {
                   <Input
                     placeholder="2020"
                     type="number"
-                    className="focus:ring-2 focus:ring-[#1EAEDB]"
+                    className="focus:ring-2 focus:ring-primary"
                   />
                 </div>
               </div>
@@ -80,7 +80,7 @@ const EvaluationForm = () => {
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Состояние
                 </label>
-                <select className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#1EAEDB] focus:border-transparent">
+                <select className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent">
                   <option>Отличное</option>
                   <option>Хорошее</option>
                   <option>Удовлетворительное</option>
@@ -95,7 +95,7 @@ const EvaluationForm = () => {
                   </label>
                   <Input
                     placeholder="Иван"
-                    className="focus:ring-2 focus:ring-[#1EAEDB]"
+                    className="focus:ring-2 focus:ring-primary"
                   />
                 </div>
 
@@ -105,12 +105,12 @@ const EvaluationForm = () => {
                   </label>
                   <Input
                     placeholder="+7 (999) 123-45-67"
-                    className="focus:ring-2 focus:ring-[#1EAEDB]"
+                    className="focus:ring-2 focus:ring-primary"
                   />
                 </div>
               </div>
 
-              <Button className="w-full bg-[#1EAEDB] hover:bg-[#0FA0CE] text-white py-3 text-lg">
+              <Button className="w-full bg-primary hover:bg-primary-dark text-white py-3 text-lg">
                 <Icon name="Send" size={20} />
                 Получить оценку
               </Button>

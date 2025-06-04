@@ -54,7 +54,7 @@ const Advantages = () => {
               className="border-0 shadow-md hover:shadow-lg transition-shadow duration-300"
             >
               <CardContent className="p-6 text-center">
-                <div className="mx-auto mb-4 w-12 h-12 bg-[#9b87f5] rounded-full flex items-center justify-center">
+                <div className="mx-auto mb-4 w-12 h-12 bg-accent rounded-full flex items-center justify-center">
                   <Icon
                     name={advantage.icon as any}
                     size={24}

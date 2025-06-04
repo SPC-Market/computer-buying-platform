@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Icon name="Laptop" size={24} className="text-[#1EAEDB]" />
+              <Icon name="Laptop" size={24} className="text-primary" />
               <span className="text-xl font-bold">ТехноСкуп</span>
             </div>
             <p className="text-gray-400 mb-4">
@@ -17,17 +17,17 @@ const Footer = () => {
               <Icon
                 name="Facebook"
                 size={20}
-                className="text-gray-400 hover:text-[#1EAEDB] cursor-pointer"
+                className="text-gray-400 hover:text-primary cursor-pointer"
               />
               <Icon
                 name="Instagram"
                 size={20}
-                className="text-gray-400 hover:text-[#1EAEDB] cursor-pointer"
+                className="text-gray-400 hover:text-primary cursor-pointer"
               />
               <Icon
                 name="MessageCircle"
                 size={20}
-                className="text-gray-400 hover:text-[#1EAEDB] cursor-pointer"
+                className="text-gray-400 hover:text-primary cursor-pointer"
               />
             </div>
           </div>
@@ -36,15 +36,15 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Контакты</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
-                <Icon name="Phone" size={16} className="text-[#1EAEDB]" />
+                <Icon name="Phone" size={16} className="text-primary" />
                 <span>+7 (999) 123-45-67</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Icon name="Mail" size={16} className="text-[#1EAEDB]" />
+                <Icon name="Mail" size={16} className="text-primary" />
                 <span>info@technoskup.ru</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Icon name="MapPin" size={16} className="text-[#1EAEDB]" />
+                <Icon name="MapPin" size={16} className="text-primary" />
                 <span>Москва, работаем по всему городу</span>
               </div>
             </div>
@@ -65,7 +65,7 @@ const Footer = () => {
             <div className="space-y-2 text-gray-400">
               <div>Пн-Пт: 9:00 - 20:00</div>
               <div>Сб-Вс: 10:00 - 18:00</div>
-              <div className="mt-4 text-[#1EAEDB]">Выезд в день обращения!</div>
+              <div className="mt-4 text-primary">Выезд в день обращения!</div>
             </div>
           </div>
         </div>
