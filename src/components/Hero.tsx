@@ -6,8 +6,10 @@ const Hero = () => {
     <section className="bg-gradient-to-br from-primary to-primary-dark text-white py-20">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h1 className="text-5xl md:text-6xl font-bold mb-6">
-          Продайте технику
-          <span className="block text-gray-900">выгодно и быстро</span>
+          Скупка цифровой техники
+          <span className="block text-gray-900">
+            и электроники в Краснодаре
+          </span>
         </h1>
 
         <p className="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto">
