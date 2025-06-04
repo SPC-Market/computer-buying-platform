@@ -25,6 +25,12 @@ const Header = () => {
               Преимущества
             </a>
             <a
+              href="#disposal"
+              className="text-gray-600 hover:text-primary transition-colors"
+            >
+              Утилизация
+            </a>
+            <a
               href="#evaluation"
               className="text-gray-600 hover:text-primary transition-colors"
             >
