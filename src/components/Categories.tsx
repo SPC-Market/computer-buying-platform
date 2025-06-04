@@ -28,7 +28,7 @@ const Categories = () => {
   ];
 
   return (
-    <section id="categories" className="py-16 bg-gray-50">
+    <section id="categories" className="py-16 bg-gray-100">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -47,11 +47,7 @@ const Categories = () => {
             >
               <CardHeader className="text-center pb-4">
                 <div className="mx-auto mb-4 w-16 h-16 bg-primary rounded-full flex items-center justify-center">
-                  <Icon
-                    name={category.icon as any}
-                    size={32}
-                    className="text-white"
-                  />
+                  <Icon name={category.icon} size={24} className="text-white" />
                 </div>
                 <CardTitle className="text-2xl text-gray-900">
                   {category.title}

@@ -5,7 +5,7 @@ const Disposal = () => {
   return (
     <section
       id="disposal"
-      className="py-16 bg-gradient-to-br from-green-50 to-blue-50"
+      className="py-16 bg-gradient-to-br from-orange-50 to-gray-50"
     >
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
@@ -20,8 +20,8 @@ const Disposal = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className="text-center p-6">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Icon name="Recycle" size={32} className="text-green-600" />
+            <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+              <Icon name="Recycle" size={32} className="text-white" />
             </div>
             <h3 className="text-xl font-semibold mb-3">Экологично</h3>
             <p className="text-gray-600">
@@ -30,8 +30,8 @@ const Disposal = () => {
           </div>
 
           <div className="text-center p-6">
-            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Icon name="Shield" size={32} className="text-blue-600" />
+            <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Icon name="Shield" size={32} className="text-white" />
             </div>
             <h3 className="text-xl font-semibold mb-3">Безопасно</h3>
             <p className="text-gray-600">
@@ -40,8 +40,8 @@ const Disposal = () => {
           </div>
 
           <div className="text-center p-6">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Icon name="FileCheck" size={32} className="text-purple-600" />
+            <div className="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Icon name="FileCheck" size={32} className="text-white" />
             </div>
             <h3 className="text-xl font-semibold mb-3">Документооборот</h3>
             <p className="text-gray-600">
@@ -95,7 +95,7 @@ const Disposal = () => {
                 </p>
               </div>
 
-              <Button className="bg-primary hover:bg-primary-dark text-white px-8 py-3">
+              <Button className="bg-primary hover:bg-primary-dark text-white px-8 py-3 text-lg">
                 <Icon name="Phone" size={16} />
                 Заказать утилизацию
               </Button>

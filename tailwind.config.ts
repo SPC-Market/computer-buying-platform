@@ -6,7 +6,7 @@ export default {
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}"
+    "./src/**/*.{ts,tsx}",
   ],
   prefix: "",
   theme: {
@@ -19,12 +19,12 @@ export default {
     },
     extend: {
       colors: {
-        primary: "#FF6B6B",
-        "primary-dark": "#E55A5A",
-        accent: "#4ECDC4",
-        "accent-light": "#6DD5D0",
-        secondary: "#45B7D1",
-        "secondary-light": "#5BC3D7",
+        primary: "#f97316",
+        "primary-dark": "#ea580c",
+        accent: "#1f2937",
+        "accent-light": "#374151",
+        secondary: "#111827",
+        "secondary-light": "#1f2937",
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",

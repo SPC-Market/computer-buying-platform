@@ -51,17 +51,17 @@ const Advantages = () => {
           {advantages.map((advantage) => (
             <Card
               key={advantage.title}
-              className="border-0 shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="text-center p-6 hover:shadow-lg transition-shadow duration-300"
             >
-              <CardContent className="p-6 text-center">
-                <div className="mx-auto mb-4 w-12 h-12 bg-accent rounded-full flex items-center justify-center">
+              <CardContent className="pt-6">
+                <div className="mx-auto mb-4 w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                   <Icon
-                    name={advantage.icon as any}
-                    size={24}
+                    name={advantage.icon}
+                    size={20}
                     className="text-white"
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg font-semibold mb-2 text-gray-900">
                   {advantage.title}
                 </h3>
                 <p className="text-gray-600">{advantage.description}</p>

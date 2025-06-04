@@ -7,7 +7,7 @@ const EvaluationForm = () => {
   return (
     <section
       id="evaluation"
-      className="py-16 bg-gradient-to-br from-gray-50 to-white"
+      className="py-16 bg-gradient-to-br from-gray-100 to-white"
     >
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
