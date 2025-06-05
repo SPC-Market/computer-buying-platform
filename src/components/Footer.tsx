@@ -37,7 +37,12 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Icon name="Phone" size={16} className="text-primary" />
-                <span>+7 (999) 123-45-67</span>
+                <a
+                  href="tel:+79991234567"
+                  className="hover:text-primary transition-colors"
+                >
+                  +7 (999) 123-45-67
+                </a>
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Mail" size={16} className="text-primary" />

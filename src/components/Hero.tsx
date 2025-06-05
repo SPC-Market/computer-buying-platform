@@ -26,14 +26,16 @@ const Hero = () => {
             Узнать стоимость
           </Button>
 
-          <Button
-            size="lg"
-            variant="outline"
-            className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-3"
-          >
-            <Icon name="Phone" size={20} />
-            +7 (999) 123-45-67
-          </Button>
+          <a href="tel:+79991234567">
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-3"
+            >
+              <Icon name="Phone" size={20} />
+              +7 (999) 123-45-67
+            </Button>
+          </a>
         </div>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">

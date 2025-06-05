@@ -44,10 +44,12 @@ const Header = () => {
             </a>
           </nav>
 
-          <Button className="bg-primary hover:bg-primary-dark text-white">
-            <Icon name="Phone" size={16} />
-            Позвонить
-          </Button>
+          <a href="tel:+79991234567">
+            <Button className="bg-primary hover:bg-primary-dark text-white">
+              <Icon name="Phone" size={16} />
+              Позвонить
+            </Button>
+          </a>
         </div>
       </div>
     </header>
