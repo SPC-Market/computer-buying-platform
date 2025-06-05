@@ -26,14 +26,14 @@ const Hero = () => {
             Узнать стоимость
           </Button>
 
-          <a href="tel:+79991234567">
+          <a href="tel:+79123456789">
             <Button
               size="lg"
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-3"
             >
               <Icon name="Phone" size={20} />
-              +7 (999) 123-45-67
+              +7 (912) 345-67-89
             </Button>
           </a>
         </div>

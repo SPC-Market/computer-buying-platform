@@ -44,7 +44,7 @@ const Header = () => {
             </a>
           </nav>
 
-          <a href="tel:+79991234567">
+          <a href="tel:+79123456789">
             <Button className="bg-primary hover:bg-primary-dark text-white">
               <Icon name="Phone" size={16} />
               Позвонить

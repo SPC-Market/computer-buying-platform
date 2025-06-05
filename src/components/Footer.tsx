@@ -38,10 +38,10 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <Icon name="Phone" size={16} className="text-primary" />
                 <a
-                  href="tel:+79991234567"
+                  href="tel:+79123456789"
                   className="hover:text-primary transition-colors"
                 >
-                  +7 (999) 123-45-67
+                  +7 (912) 345-67-89
                 </a>
               </div>
               <div className="flex items-center space-x-2">
